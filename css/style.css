@@ -1,0 +1,177 @@
+#header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+  }
+  #header  {
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+body {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.3);
+    background: #000 url(../images/broken_noise.png) repeat;
+  }
+.active{
+    background-color: #122236;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+.row {
+    margin-top: 100px;
+  }
+span {
+    color: #203b5f;
+}
+.logo {
+    font-size:42px ;
+}
+a {
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+  }
+.text-center {
+    text-align: center;
+  }
+
+
+.navbar {
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+.navbar li {
+    height: auto;
+    width: 150px;
+    float:left;
+    text-align: center;
+    list-style: none;
+    margin-top:5px;
+  }
+.navbar a {
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+  }
+  
+
+.navbar li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+.navbar li:hover ul {
+    display: block;
+  }
+
+.navbar li ul li {
+    margin-top: auto;
+    border-left: 2px solid #444444;
+    border-right: 2px solid #444444;
+    border-top: 2px solid #444444;
+    border-bottom: 2px solid #444444;
+    background-color: #203b5f;
+  }
+
+.navbar li ul li a:hover {
+    background-color: #122236;
+  }
+#wrap {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    position: relative;
+    background-color: #203b5f;
+  }
+h1{
+    color: #FFF;
+}
+h2{
+  color: white;
+  font-size: 20px;
+}
+p {
+  float:right;
+  color: #ffffff;
+}
+.img {
+  margin: 10px;
+  width: 25%;
+  height: 25%;
+}
+.box{
+  border-left: 2px solid #444444;
+  border-right: 2px solid #444444;
+  border-top: 2px solid #444444;
+  border-bottom: 2px solid #444444;
+  border-radius: 5%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 5px;
+  height:auto;
+  width: auto;
+}
+input[type=text], textarea, input[type=email] ,input[type=formation] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-right: 0px;
+  margin-left: 0px;
+  resize: vertical;
+}
+label{margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+  color:white;
+}
+  
+input[type=submit] {
+  background-color: #1255a2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1872D9;
+}
+
+.contact {
+  box-sizing : border-box;
+  border-radius:5px;
+  background-color:#959595;
+  padding:20px;
+  width: 100%;
+  max-width: 440px;
+  margin:0 auto;
+}
+h3  {
+  color: #14498e;
+  width: 100%;
+  text-align: center;
+}
