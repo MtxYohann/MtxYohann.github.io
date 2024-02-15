@@ -119,6 +119,9 @@ p {
   width: 25%;
   height: 25%;
 }
+.imglogo {
+  margin: 10px;
+}
 .box{
   border-left: 2px solid #444444;
   border-right: 2px solid #444444;
@@ -174,4 +177,12 @@ h3  {
   color: #14498e;
   width: 100%;
   text-align: center;
+}
+.boxfooter {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: #203b5f78; 
 }
